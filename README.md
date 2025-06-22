@@ -42,14 +42,15 @@ aws configure
 ### Clone this repository
 git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git
 cd AWS-IAM-Security-Audit
-# Install required dependencies:
+### Install required dependencies:
 
 pip install -r requirements.txt
-▶️ Usage
+#### ▶️ Usage
 Run the script:
 
 
 python iam_audit.py
+
 This will generate:
 
 
@@ -69,7 +70,7 @@ MFAEnabled
 
 PrivilegeEscalationRisk
 
-🔒 What It Checks
+#### 🔒 What It Checks
 IAM users & metadata
 
 Attached and inline policies
@@ -80,5 +81,5 @@ MFA configuration
 
 Privilege escalation indicators (based on known IAM abuse techniques)
 
-🧠 Reference
+#### 🧠 Reference
 Based on research from Rhino Security Labs
