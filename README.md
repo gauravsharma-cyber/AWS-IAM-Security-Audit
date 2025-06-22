@@ -31,8 +31,8 @@ https://awscli.amazonaws.com/AWSCLIV2.msi
 https://awscli.amazonaws.com/AWSCLIV2.pkg
 
 #### For Linux, please run this command to install aws cli:
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+unzip awscliv2.zip \
 sudo ./aws/install
 
 #### Use AWS CLI to set credentials
@@ -55,7 +55,7 @@ python iam_audit.py
 
 
 aws_iam_security_audit.xlsx
-📊 Output Columns
+📊 Output Columns \
 UserName
 
 Created
