@@ -40,7 +40,7 @@ aws configure
 
 ### 🔧 Installation
 #### Clone this repository
-git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git <br\>
+git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git \
 cd AWS-IAM-Security-Audit
 #### Install required dependencies:
 
