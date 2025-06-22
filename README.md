@@ -38,9 +38,11 @@ sudo ./aws/install
 ### Use AWS CLI to set credentials
 aws configure
 
-📥 Installation
-Install required dependencies:
-
+### 🔧 Installation
+# Clone this repository
+git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git
+cd AWS-IAM-Security-Audit
+# Install required dependencies:
 
 pip install -r requirements.txt
 ▶️ Usage
