@@ -4,7 +4,7 @@ This Python-based tool performs a security audit of IAM users in your AWS accoun
 
 ---
 
-## 📦 Files Included
+### 📦 Files Included
 
 - `iam_audit.py` – Main audit script
 - `requirements.txt` – Python dependencies
@@ -12,37 +12,37 @@ This Python-based tool performs a security audit of IAM users in your AWS accoun
 
 ---
 
-## 🛠 Requirements
+### 🛠 Requirements
 
 - Python 3.6+
 - AWS account with IAM `List/Get` permissions
-- AWS credentials (via CLI or env vars)
+- AWS credentials (via CLI)
 
 ---
 
-## 🔐 Setting AWS Credentials
+### 🔐 Setting AWS Credentials
 
 You **must set credentials** before running the script.
 
-### For Windows, please download and install aws cli from this link:
+#### For Windows, please download and install aws cli from this link:
 https://awscli.amazonaws.com/AWSCLIV2.msi
 
-### For MAC, please download and install aws cli from this link:
+#### For MAC, please download and install aws cli from this link:
 https://awscli.amazonaws.com/AWSCLIV2.pkg
 
-### For Linux, please run this command to install aws cli:
+#### For Linux, please run this command to install aws cli:
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 
-### Use AWS CLI to set credentials
+#### Use AWS CLI to set credentials
 aws configure
 
-## 🔧 Installation
-### Clone this repository
-git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git
+### 🔧 Installation
+#### Clone this repository
+git clone https://github.com/gauravsharma-cyber/AWS-IAM-Security-Audit.git <br\>
 cd AWS-IAM-Security-Audit
-### Install required dependencies:
+#### Install required dependencies:
 
 pip install -r requirements.txt
 #### ▶️ Usage
@@ -51,7 +51,7 @@ Run the script:
 
 python iam_audit.py
 
-This will generate:
+#### This will generate:
 
 
 aws_iam_security_audit.xlsx
