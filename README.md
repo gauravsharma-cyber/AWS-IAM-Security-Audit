@@ -54,7 +54,7 @@ python iam_audit.py
 #### This will generate:
 
 
-aws_iam_security_audit.xlsx
+aws_iam_security_audit.xlsx \
 📊 Output Columns \
 UserName
 
